@@ -1,49 +1,49 @@
-git init ³õÊ¼»¯²Ö¿â
-git status ²é¿´µ±Ç°×´Ì¬
-git add ½«ÎÄ¼şÌí¼Óµ½Ôİ´æÇø
-git commit -m "ÃèÊö" ½«ÎÄ¼şÌá½»µ½²Ö¿â
-git reset HEAD   <file>  ³·³öÔİ´æÇøÎÄ¼ş
-git checkout -- <file>..." ¶ªÆú¹¤×÷ÇøµÄ¸Ä¶¯
+git init åˆå§‹åŒ–ä»“åº“
+git status æŸ¥çœ‹å½“å‰çŠ¶æ€
+git add å°†æ–‡ä»¶æ·»åŠ åˆ°æš‚å­˜åŒº
+git commit -m "æè¿°" å°†æ–‡ä»¶æäº¤åˆ°ä»“åº“
+git reset HEAD   <file>  æ’¤å‡ºæš‚å­˜åŒºæ–‡ä»¶
+git checkout -- <file>..." ä¸¢å¼ƒå·¥ä½œåŒºçš„æ”¹åŠ¨
 
-°æ±¾»Ø¹ö£º
-git log ²é¿´Ìá½»ÀúÊ·
+ç‰ˆæœ¬å›æ»šï¼š
+git log æŸ¥çœ‹æäº¤å†å²
 
-git reset --hard  »Ø¹ö°æ±¾
+git reset --hard  å›æ»šç‰ˆæœ¬
 
-git rm ½«±¾µØÎÄ¼şÇå¿Õ Çå¿ÕÖ®ºóÒª½øĞĞ  git commit -m 
+git rm å°†æœ¬åœ°æ–‡ä»¶æ¸…ç©º æ¸…ç©ºä¹‹åè¦è¿›è¡Œ  git commit -m 
  
-Ô¶³Ì²Ö¿â
-githup ÕËºÅ zhongdi2 ÃÜÂëzhongdi123456
+è¿œç¨‹ä»“åº“
+githup è´¦å· zhongdi2 å¯†ç zhongdi123456
 
-$ ssh-keygen -t rsa -C "913853697@qq.com" Éú³ÉSSHkey
+$ ssh-keygen -t rsa -C "913853697@qq.com" ç”ŸæˆSSHkey
 
-$ ssh -T git@github.com  ÑéÖ¤±¾µØÊÇ·ñÁ¬½ÓÔ¶³Ì²Ö¿â
+$ ssh -T git@github.com  éªŒè¯æœ¬åœ°æ˜¯å¦è¿æ¥è¿œç¨‹ä»“åº“
 
 $ git remote add origin https://github.com/zhongdi2/git_demo.git
 
-git push -u origin master ±¾µØ²Ö¿âºÍÔ¶³Ì²Ö¿â¹ØÁª£¨µÚÒ»´Î£©
+git push -u origin master æœ¬åœ°ä»“åº“å’Œè¿œç¨‹ä»“åº“å…³è”ï¼ˆç¬¬ä¸€æ¬¡ï¼‰
  
-git push  £¨µÚ¶ş´Î£©½«ÎÄ¼şÍÆËÍµ½Ô¶³Ì²Ö¿â
+git push  ï¼ˆç¬¬äºŒæ¬¡ï¼‰å°†æ–‡ä»¶æ¨é€åˆ°è¿œç¨‹ä»“åº“
 
-¿ËÂ¡²Ö¿â
+å…‹éš†ä»“åº“
 
 git clone SSH 
-ĞŞ¸ÄÉ¾³ıÌí¼Ó git push
+ä¿®æ”¹åˆ é™¤æ·»åŠ  git push
 
-±êÇ©¹ÜÀí
-git tag ÁĞ³öËùÓĞ±êÇ©
-git tag name ´´½¨±êÇ©
-git push origin v1.0 ½«±êÇ©ÍÆËÍµ½Ô¶³Ì
-git tag   -d name  É¾³ı±êÇ©
-·ÖÖ§¹ÜÀí
- git branch  name ´´½¨·ÖÖ§
- git branch  ²é¿´·ÖÖ§
-git checkout ÇĞ»»·ÖÖ§
-git merge ºÏ²¢·ÖÖ§
-git branch -d É¾³ı·ÖÖ§
+æ ‡ç­¾ç®¡ç†
+git tag åˆ—å‡ºæ‰€æœ‰æ ‡ç­¾
+git tag name åˆ›å»ºæ ‡ç­¾
+git push origin v1.0 å°†æ ‡ç­¾æ¨é€åˆ°è¿œç¨‹
+git tag   -d name  åˆ é™¤æ ‡ç­¾
+åˆ†æ”¯ç®¡ç†
+ git branch  name åˆ›å»ºåˆ†æ”¯
+ git branch  æŸ¥çœ‹åˆ†æ”¯
+git checkout åˆ‡æ¢åˆ†æ”¯
+git merge åˆå¹¶åˆ†æ”¯
+git branch -d åˆ é™¤åˆ†æ”¯
  
 
-
+æ›´æ”¹
 
 
 
