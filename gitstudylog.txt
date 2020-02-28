@@ -1,0 +1,55 @@
+git init 初始化仓库
+git status 查看当前状态
+git add 将文件添加到暂存区
+git commit -m "描述" 将文件提交到仓库
+git reset HEAD   <file>  撤出暂存区文件
+git checkout -- <file>..." 丢弃工作区的改动
+
+版本回滚：
+git log 查看提交历史
+
+git reset --hard  回滚版本
+
+git rm 将本地文件清空 清空之后要进行  git commit -m 
+ 
+远程仓库
+githup 账号 zhongdi2 密码zhongdi123456
+
+$ ssh-keygen -t rsa -C "913853697@qq.com" 生成SSHkey
+
+$ ssh -T git@github.com  验证本地是否连接远程仓库
+
+$ git remote add origin https://github.com/zhongdi2/git_demo.git
+
+git push -u origin master 本地仓库和远程仓库关联（第一次）
+ 
+git push  （第二次）将文件推送到远程仓库
+
+克隆仓库
+
+git clone SSH 
+修改删除添加 git push
+
+标签管理
+git tag 列出所有标签
+git tag name 创建标签
+git push origin v1.0 将标签推送到远程
+git tag   -d name  删除标签
+分支管理
+ git branch  name 创建分支
+ git branch  查看分支
+git checkout 切换分支
+git merge 合并分支
+git branch -d 删除分支
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
